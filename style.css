@@ -333,3 +333,37 @@ img {
     font-size: 12px;
     color: #777777;
 }
+
+.collections-intro {
+    max-width: 850px;
+    margin: 20px auto 70px auto;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #d8d3c8;
+}
+
+.collections-intro > h3 {
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    margin-bottom: 45px;
+}
+
+.collection-intro {
+    margin: 35px auto;
+    max-width: 600px;
+}
+
+.collection-intro h4 {
+    font-size: 21px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.collection-intro p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555555;
+    margin: 0 auto;
+}
