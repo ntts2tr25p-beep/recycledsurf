@@ -308,6 +308,24 @@ img {
 
 .footer-social a:hover {
     text-decoration: underline;
+}.view-artwork {
+    text-align: center;
+    margin: 30px auto 40px auto;
+}
+
+.view-artwork a {
+    display: inline-block;
+    padding: 14px 28px;
+    border: 1px solid #555555;
+    color: #333333;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.view-artwork a:hover {
+    background-color: #333333;
+    color: #f4f1ea;
 }
 
 .footer-copy {
