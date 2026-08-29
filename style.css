@@ -1,0 +1,282 @@
+ body {
+    background-color: #f4f1ea;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Navigation */
+
+nav {
+    text-align: center;
+    padding: 18px 10px;
+    position: sticky;
+    top: 0;
+    background-color: #f4f1ea;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd8ce;
+}
+
+nav a {
+    color: #222222;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main title */
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 50px 0 5px 0;
+}
+
+.artist-name {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0 0 8px 0;
+    font-style: italic;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 4px;
+    margin-top: 0;
+}
+
+/* Main images */
+
+img {
+    display: block;
+    width: 500px;
+    max-width: 90%;
+    height: auto;
+    margin: 40px auto;
+}
+
+/* Introduction */
+
+.intro {
+    max-width: 700px;
+    margin: 70px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    max-width: 650px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: 0;
+}
+
+/* Artwork */
+
+.artwork {
+    max-width: 1100px;
+    margin: 90px auto;
+    text-align: center;
+    padding: 70px 20px;
+    border-top: 1px solid #d8d3c8;
+    border-bottom: 1px solid #d8d3c8;
+}
+
+.artwork h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.art-piece {
+    width: 44%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2% 70px 2%;
+}
+
+.art-piece img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.art-piece h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.art-description {
+    max-width: 480px;
+    margin: 10px auto 35px auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #444444;
+}
+.translation {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0;
+    font-style: italic;
+    color: #666666;
+    margin: 8px auto 35px auto;
+}
+
+.exhibition {
+    margin: 25px auto 50px auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0;
+    color: #666666;
+}
+
+/* About */
+
+.about {
+    width: 90%;
+    max-width: 760px;
+    margin: 100px auto;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.about p {
+    text-align: left;
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: 0;
+    margin-bottom: 22px;
+}
+
+/* Contact */
+
+.contact {
+    width: 90%;
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-top: 1px solid #cccccc;
+}
+
+.contact h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.second-life {
+    text-align: center !important;
+    font-size: 24px !important;
+    margin-top: 40px !important;
+    font-style: italic;
+}
+
+/* Phones and smaller screens */
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px 10px;
+    }
+
+    .art-piece {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}.inquire {
+    text-align: center;
+    margin: 25px auto 35px auto;
+}
+
+.inquire a {
+    display: inline-block;
+    padding: 12px 22px;
+    border: 1px solid #777777;
+    color: #333333;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.inquire a:hover {
+    background-color: #333333;
+    color: #f4f1ea;
+}.contact form {
+    max-width: 550px;
+    margin: 35px auto;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 14px;
+    border: 1px solid #aaaaaa;
+    background-color: #ffffff;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.contact textarea {
+    resize: vertical;
+}
+
+.contact button {
+    display: inline-block;
+    padding: 13px 25px;
+    border: 1px solid #777777;
+    background-color: transparent;
+    color: #333333;
+    font-size: 12px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #333333;
+    color: #f4f1ea;
+}
