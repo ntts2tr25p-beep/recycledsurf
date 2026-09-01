@@ -54,12 +54,14 @@ h1 {
 
 /* Main images */
 
-img {
-    display: block;
-    width: 500px;
-    max-width: 90%;
+/* Homepage hero artwork */
+
+.hero-art {
+    width: 1100px;
+    max-width: 96%;
     height: auto;
-    margin: 40px auto;
+    margin: 30px auto 45px auto;
+    border-radius: 16px;
 }
 
 /* Introduction */
