@@ -398,3 +398,6 @@ img {
 }.art-piece {
     text-align: center;
 }
+#home {
+    scroll-margin-top: 90px;
+}
