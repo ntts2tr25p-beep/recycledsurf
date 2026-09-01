@@ -403,7 +403,7 @@ h1 {
 img.hero-art {
     display: block !important;
     width: 90% !important;
-    max-width: 350px !important;
+    max-width: 275px !important;
     height: auto !important;
     margin: 30px auto !important;
 } 
