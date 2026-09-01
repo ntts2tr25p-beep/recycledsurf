@@ -373,4 +373,35 @@ img {
     margin: 10px auto 30px;
     font-size: 18px;
     line-height: 1.6;
+}.collections-intro {
+    max-width: 900px;
+    margin: 40px auto 60px;
+    text-align: center;
+}
+
+.collection-intro {
+    display: inline-block;
+    width: 240px;
+    min-height: 140px;
+    margin: 10px;
+    padding: 24px 18px;
+    vertical-align: top;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.collection-intro h4 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.collection-intro a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.collection-intro a:hover {
+    text-decoration: underline;
 }
