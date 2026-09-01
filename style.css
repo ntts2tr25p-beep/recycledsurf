@@ -404,4 +404,8 @@ img {
 
 .collection-intro a:hover {
     text-decoration: underline;
+}.collection-intro a,
+.collection-intro a:visited {
+    color: #222;
+    text-decoration: none;
 }
