@@ -382,14 +382,18 @@ img {
 .collection-intro {
     display: inline-block;
     width: 240px;
-    min-height: 140px;
+    min-height: 120px;
     margin: 10px;
     padding: 24px 18px;
     vertical-align: top;
-    border: 1px solid #cfcfcf;
-    border-radius: 10px;
-    background: #ffffff;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+
+    border: none;
+    border-top: 2px solid #222;
+    border-bottom: 1px solid #d8d8d8;
+
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
 }
 
 }
