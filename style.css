@@ -382,3 +382,17 @@ img {
     color: #222 !important;
     text-decoration: none !important;
 }
+.sold {
+    display: inline-block;
+    padding: 7px 16px;
+    margin: 5px auto 25px;
+    border: 1px solid #777;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #555;
+}
+
+.art-piece .sold {
+    text-align: center;
+}
