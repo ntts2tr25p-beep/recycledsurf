@@ -410,3 +410,13 @@ img.hero-art {
 html {
     scroll-padding-top: 110px;
 }
+
+/* Tenalu making-of video */
+.art-video {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 18px auto 25px;
+    border-radius: 8px;
+}
