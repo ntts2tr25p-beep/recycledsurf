@@ -420,3 +420,16 @@ html {
     margin: 18px auto 25px;
     border-radius: 8px;
 }
+/* RecycledSurf homepage logo */
+.site-logo {
+    text-align: center;
+    padding: 25px 15px 10px;
+}
+
+.site-logo img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
