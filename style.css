@@ -425,7 +425,7 @@ html {
     padding: 25px 15px 10px;
 }
 
-.site-logo img {
+.site-logo > img {
     display: block;
     width: 100%;
     max-width: 400px;
