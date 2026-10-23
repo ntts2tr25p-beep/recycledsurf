@@ -433,3 +433,12 @@ html {
     height: auto;
     margin: 0 auto;
 }
+/* Kai Hūnā featured surfboard */
+.featured-surfboard {
+    display: block;
+    width: 90%;
+    max-width: 750px;
+    height: auto;
+    margin: 25px auto;
+    object-fit: contain;
+}
