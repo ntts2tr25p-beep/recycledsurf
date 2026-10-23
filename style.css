@@ -441,3 +441,10 @@ html {
     margin: 25px auto;
     object-fit: contain;
 }
+.intro img.featured-surfboard {
+    width: 90% !important;
+    max-width: 1200px !important;
+    height: auto !important;
+    display: block;
+    margin: 25px auto;
+}
